@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.body{
+.body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,7 @@
   background-size: 790px 697px;
 }
 
-.main-title{
+.main-title {
   position: absolute;
   top: 220px;
   left: 50%;
