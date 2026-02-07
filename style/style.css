@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 1715px;
+  background: #FFFFFF;
+  font-family: Montserrat;
+  position: relative;
+  background-image: url("../images/bg-dandelions.png");
+  background-repeat: no-repeat;
+  background-position: 86px -45px;
+  background-size: 790px 697px;
+}
+
+.main-title {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  height: 78px;
+  width: 846px;
+  font-weight: 400;
+  font-size: 70px;
+  color: #515076;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.product-card__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1110px;
+  max-height: 1191px;
+  flex-wrap: wrap;
+  top: 408px;
+  left: 85px;
+  margin: 350px 0 auto;
+}
+
+.product-card {
+  padding: 5px 20px 32px;
+  display: block;
+  width: 301px;
+  height: auto;
+  border: 1px solid rgba(247, 247, 250, 1);
+  background-color: rgba(81,80,118,0.1);
+}
+
+.product-card__img {
+  display: block;
+  width: 299px;
+  height: 245px;
+  margin: 20px auto;
+  object-fit: contain;
+}
+
+.product-card__skin-type {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color:#A5A3B9;
+}
+
+.product-card__title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #515076;
+  margin-bottom: 10px;
+}
+
+.product-card__descr {
+  height: 36px;
+  font-size: 13px;
+  font-weight: 400px;
+  margin-bottom: 15px;
+  color: rgba(81, 80, 118, 1);
+}
+
+.product-card__all-ingredients {
+  box-sizing: border-box;
+  width: 252px;
+  height: 87px;
+  margin-bottom: 25px;
+  color: rgba(81, 80, 118, 1);
+}
+
+.product-card__ingredients {
+  line-height: 2.0;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: rgba(81, 80, 118, 1);
+}
+
+.product-card__item {
+  height: 18;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 5px;
+  list-style: circle;
+  list-style-position: inside;
+  color: rgba(81, 80, 118, 1);
+}
+
+.product-card__price-wrapper {
+  line-height: 1.0;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(81, 80, 118, 1);
+}
+
+.product-card__price-text {
+  line-height: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(81, 80, 118, 1)
+}
+
+.product-card__price {
+  height: 24px;
+  font-size: 20px;
+  color: rgba(81, 80, 118, 1);
+}
