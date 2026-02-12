@@ -8,7 +8,7 @@ switchFirstCardButton.addEventListener('click', () => {
 
 const productCards = document.querySelectorAll('.product-card');
 const switchAllCardButton = document.getElementById('switch-all-card-button');
-const yellowHashColor = 'rgb(222, 233, 8)';
+const yellowHashColor = 'rgba(222, 233, 8)';
 
 switchAllCardButton.addEventListener('click', () => {
   productCards.forEach(
