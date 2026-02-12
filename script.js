@@ -8,7 +8,7 @@ switchFirstCardButton.addEventListener('click', () => {
 
 const productCards = document.querySelectorAll('.product-card');
 const switchAllCardButton = document.getElementById('switch-all-card-button');
-const yellowHashColor = 'hsl(66, 100%, 50%)';
+const yellowHashColor = 'rgb(222, 233, 8)';
 
 switchAllCardButton.addEventListener('click', () => {
   productCards.forEach(
@@ -34,6 +34,6 @@ colorToggleSwitchButton.addEventListener('click', () => {
 
 const mainTitle = document.querySelector('.main-title');
 mainTitle.addEventListener('mouseover', () => {
-  console.log('я выбрал продукт');
+  console.log('Выбери свой продукт');
 })
 
