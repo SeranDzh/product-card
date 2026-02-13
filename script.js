@@ -34,6 +34,6 @@ colorToggleSwitchButton.addEventListener('click', () => {
 
 const mainTitle = document.querySelector('.main-title');
 mainTitle.addEventListener('mouseover', () => {
-  mainTitle.textContent = 'Выбери свой продукт';
+  console.log(mainTitle.textContent);
 });
 
