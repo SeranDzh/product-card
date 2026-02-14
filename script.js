@@ -4,17 +4,17 @@ const blueHashColor = "#2200ff";
 
 switchFirstCardButton.addEventListener('click', () => {
   firstProductCard.style.backgroundColor = blueHashColor;
-})
+});
 
 const productCards = document.querySelectorAll('.product-card');
 const switchAllCardButton = document.getElementById('switch-all-card-button');
-const yellowHashColor = 'hsl(66, 100%, 50%)';
+const yellowHashColor = 'rgb(222, 233, 8)';
 
 switchAllCardButton.addEventListener('click', () => {
   productCards.forEach(
     card => card.style.backgroundColor = yellowHashColor
   )
-})
+});
 
 const googleOpenButton = document.getElementById('open-google-button');
 googleOpenButton.addEventListener('click', openGoogle);
@@ -25,15 +25,15 @@ function openGoogle() {
   if (answer === true) {
     window.open('https://google.com');
   } else { 
-}}
+}};
 
 const colorToggleSwitchButton =document.querySelector('#color-toggle-switch-button');
 colorToggleSwitchButton.addEventListener('click', () => {
   colorToggleSwitchButton.classList.toggle('active');
-})
+});
 
 const mainTitle = document.querySelector('.main-title');
 mainTitle.addEventListener('mouseover', () => {
-  console.log('я выбрал продукт');
-})
+  console.log(mainTitle.textContent);
+});
 
