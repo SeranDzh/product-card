@@ -24,10 +24,11 @@ function openGoogle() {
 
   if (answer === true) {
     window.open('https://google.com');
-  } else { 
+  } else {
+    console.log('Пользователь отменил переход на  сайт Google');
 }};
 
-const colorToggleSwitchButton =document.querySelector('#color-toggle-switch-button');
+const colorToggleSwitchButton = document.querySelector('#color-toggle-switch-button');
 colorToggleSwitchButton.addEventListener('click', () => {
   colorToggleSwitchButton.classList.toggle('active');
 });
